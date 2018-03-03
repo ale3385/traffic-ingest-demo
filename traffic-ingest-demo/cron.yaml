@@ -1,5 +1,0 @@
-cron:
-- description: cron job to ingest data from Socrata OData source
-  url: /traffic-ingest-demo/socrata-data
-  schedule: every 15 mins
-  target: default
