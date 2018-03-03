@@ -7,7 +7,7 @@ import ingest.socrata_data as socrata_data
 
 app = Flask(__name__)
 
-@app.route('/traffic-ingest-demo/socrata_data') 
+@app.route('/traffic-ingest-demo/socrata-data') 
 def start_traffic_add_data(): 
     is_cron = request.headers.get('X-Appengine-Cron', False)
     if not is_cron:
